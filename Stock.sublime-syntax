@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+name: Stock
+file_extensions: []
+scope: text.search
+
+contexts:
+  main:
+    - match: ^.*\+.*$
+      scope: storage.type.function
+    - match: ^.*\-.*$
+      scope: string
+

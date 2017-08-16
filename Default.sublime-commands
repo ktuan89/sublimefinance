@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Stock: Watch from current view",
+        "command": "set_stock_view"
+    },
+    {
+        "caption": "Coin: Watch from current view",
+        "command": "set_coin_view"
+    }
+]
